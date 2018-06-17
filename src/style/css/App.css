@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(to right, #616161, #9bc5c3);
+
+}
+
+.App-title {
+  font-size: 1.3em;
+  border: 1px #222222 solid ;
+  margin: 5px;
+  padding: 0 5px 0 15px;
+  box-sizing: border-box;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*************Footer***************/
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px;
+}
+.site-footer {
+  background: linear-gradient(to right, #616161, #9bc5c3);
+}
+/*************NavBar***************/
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: stretch;
+  align-items: flex-end;
+}
+
+.flex-item:nth-child(1) {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+.flex-item:nth-child(2) {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+
+.flex-item:nth-child(3) {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+ :visited {
+  color: black;
+}
