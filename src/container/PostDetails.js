@@ -21,7 +21,7 @@ class PostDetails extends Component{
         const comment = comments;
         let titleBody = data.filter(body => {
             if (body.userId === userId && body.id === id) {
-                return false
+                return body
             }
         });
 
